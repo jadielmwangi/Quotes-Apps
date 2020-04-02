@@ -9,9 +9,9 @@ import { Quotes } from '../quotes';
 export class QuoteCompComponent implements OnInit {
 
   quotes:Quotes[] = [
-    new Quotes('Sir Winston Churchill: ','  Success is ability to move from one failure to another with no loss of enthusiasm','Jadiel.M.M',0,0,new Date(2020,3,1)),
-    new Quotes('Nelson Mandela ', ' The glory doesnt go to those who start but to those who finish the race',' Julius.R',0,0,new Date(2020,4,1)),
-    new Quotes('Dr Albert Einstein ', '  Dreams come true to those who have them.','Eunice.M',0,0,new Date(2020,3.1)),
+    new Quotes('Jadiel.M.M: ','  Success is ability to move from one failure to another with no loss of enthusiasm','Jadiel.M.M Sir Winston Churchill:',0,0,new Date(2020,3,1)),
+    new Quotes('Julius.R: ', ' The glory doesnt go to those who start but to those who finish the race',' Julius.R Nelson Mandela',0,0,new Date(2020,4,1)),
+    new Quotes('Eunice.M', '  Dreams come true to those who have them.',' Dr Albert Einstein ',0,0,new Date(2020,3.1)),
   ];
 
   firstNumber :number
