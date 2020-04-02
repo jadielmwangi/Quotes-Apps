@@ -36,28 +36,28 @@ export class QuoteCompComponent implements OnInit {
     }
   }
 
-  addTotal(isUp,index){
-    if(isUp){
-      this.quotes[index].upvote ++;
-    }
-  }
+  // addTotal(isUp,index){
+  //   if(isUp){
+  //     this.quotes[index].upvote ++;
+  //   }
+  // }
 
-  adTotal(isDown,index){
-    if(isDown){
-      this.quotes[index].downvote ++;
-    }
-  }
+  // adTotal(isDown,index){
+  //   if(isDown){
+  //     this.quotes[index].downvote ++;
+  //   }
+  // }
 
-  loopVote(){
-    this.firstNumber = 0
-    this.lastNumber = 0
+  // loopVote(){
+  //   this.firstNumber = 0
+  //   this.lastNumber = 0
 
-    for(this.count=0 ; this.count < this.quotes.length; this.count++){
-      this.lastNumber = this.quotes[this.count].upvote;
-      if(this.lastNumber > this.firstNumber){this.firstNumber = this.lastNumber}
-    }
-    return this.lastNumber
-  }
+  //   for(this.count=0 ; this.count < this.quotes.length; this.count++){
+  //     this.lastNumber = this.quotes[this.count].upvote;
+  //     if(this.lastNumber > this.firstNumber){this.firstNumber = this.lastNumber}
+  //   }
+  //   return this.lastNumber
+  // }
 
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;

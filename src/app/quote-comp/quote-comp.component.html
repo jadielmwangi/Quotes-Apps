@@ -16,19 +16,19 @@
               <div class="card-body">
               <li> {{quote.name}} {{quote.quote}} created at {{quote.completeDate|date}}</li>
     
-              <button (click)='toggleDetails(i)'  id="quotes-button">Get more</button>
+              <button (click)='toggleDetails(i)'  id="quotes-button">View more</button>
     
     
-    
-                  <p appHighlightQuote *ngIf="loopVote()===quote.upvote && quote.upvote>0"> {{quote.quote}} </p>
+   
+                   <!-- <p appHighlightQuote *ngIf="loopVote()===quote.upvote && quote.upvote>0"> {{quote.quote}} </p> -->
                   <div>
     
-                <p *ngIf="loopVote()!==quote.upvote || quote.upvote===0">
+                <!-- <p *ngIf="loopVote()!==quote.upvote || quote.upvote===0">
                   <p *ngIf="loopVote()!==quote.upvote || quote.downvote===0">
-                </p>
-     
+                </p> -->
+  
     
-              <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteQuote($event,i)' (isUp) = 'addTotal($event,i)' (isDown)='adTotal($event,i)'></app-quote-detail>
+              <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteQuote($event,i)' ></app-quote-detail>
     
     
               </div>
