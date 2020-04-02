@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Quote-App.</h2>
+        <h2>Quotes-App.</h2>
         <p> This application allow user to create quotes and have those quotes voted on whether they are <span class="intro">terrible or are inspirational</span>. 
           <div class="all-cards">
 
@@ -26,7 +26,7 @@
                 <p *ngIf="loopVote()!==quote.upvote || quote.upvote===0">
                   <p *ngIf="loopVote()!==quote.upvote || quote.downvote===0">
                 </p>
-    
+     
     
               <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteQuote($event,i)' (isUp) = 'addTotal($event,i)' (isDown)='adTotal($event,i)'></app-quote-detail>
     
@@ -39,9 +39,9 @@
             
     
     
-          <div class="col-md-6">
+          
             <app-quote-form (addquotes)="addNewquote($event)"></app-quote-form>
-          </div>
+          
     
     
       
