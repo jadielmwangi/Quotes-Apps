@@ -1,5 +1,10 @@
 
   .container{
+    text-align: center;
     margin-right:auto;
     margin-left: auto;
+    
   }
+h2{
+  color: blue;
+}
