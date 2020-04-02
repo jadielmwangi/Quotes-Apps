@@ -40,7 +40,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { TimeCountPipe } from './timecount.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { HighlightQuoteDirective } from './highlight-quote.directive';
-// import { TimecountPipe } from './timecount.pipe';
+
 
 
 @NgModule({
