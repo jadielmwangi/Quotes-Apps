@@ -20,14 +20,9 @@
     
     
    
-                   <!-- <p appHighlightQuote *ngIf="loopVote()===quote.upvote && quote.upvote>0"> {{quote.quote}} </p> -->
-                  <div>
-    
-                <!-- <p *ngIf="loopVote()!==quote.upvote || quote.upvote===0">
-                  <p *ngIf="loopVote()!==quote.upvote || quote.downvote===0">
-                </p> -->
-  
-    
+                  
+              <div>
+
               <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteQuote($event,i)' ></app-quote-detail>
     
     
