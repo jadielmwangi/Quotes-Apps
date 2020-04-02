@@ -7,16 +7,16 @@
 </head>
 <body>
     <div class="container">
-        <h1 >Quote-App.</h1>
-        <p> application allow users to create quotes and have those quotes voted on whether they are <span class="intro">terrible or are inspirational</span>. 
+        <h2>Quote-App.</h2>
+        <p> This application allow user to create quotes and have those quotes voted on whether they are <span class="intro">terrible or are inspirational</span>. 
           <div class="all-cards">
 
-            <div *ngFor='let quote of quotes; let i = index ' class="card" style="width: 24rem;" >
+            <div *ngFor='let quote of quotes; let i = index ' >
     
               <div class="card-body">
               <li> {{quote.name}} {{quote.quote}} created at {{quote.completeDate|date}}</li>
     
-              <button (click)='toggleDetails(i)' class="btn btn-info btn-sm" id="quotes-button">Read More</button>
+              <button (click)='toggleDetails(i)'  id="quotes-button">Get more</button>
     
     
     
