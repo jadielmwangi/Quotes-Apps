@@ -7,13 +7,13 @@ This is an application where users can create quotes and have those quotes voted
 
 ## Project Live Site
 
-* This is the live link of the site.
+* This is the live link of the site: https://jadielmwangi.github.io/Quotes-Apps/
 
 ## Setup Instructions
 
 * Click on the green button to clone or download
 * open your terminal
-* cd into Documents/Quotes-App
+* cd into Documents/Quotes-Apps
 * Open with  either visual code or Atom
 * Run the command ng serve open to serve your app
 
