@@ -1,5 +1,5 @@
 
-import { Directive,ElementRef,HostListener } from '@angular/core';
+import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
   selector: '[appHighlightQuote]'
@@ -7,13 +7,13 @@ import { Directive,ElementRef,HostListener } from '@angular/core';
 export class HighlightQuoteDirective {
 
 
-  constructor(private elem:ElementRef){}
+  constructor(private elem: ElementRef) { }
 
-  @HostListener("click") onClicks(){
+  @HostListener("click") onClicks() {
     this.textDeco("highlight")
   }
-  private textDeco(action:string){
-    this.elem.nativeElement.style.backgroundColor='aqua';
+  private textDeco(action: string) {
+    this.elem.nativeElement.style.backgroundColor = 'aqua';
 
   }
 

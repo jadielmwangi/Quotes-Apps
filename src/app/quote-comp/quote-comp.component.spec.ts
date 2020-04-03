@@ -8,9 +8,9 @@ describe('QuoteCompComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QuoteCompComponent ]
+      declarations: [QuoteCompComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

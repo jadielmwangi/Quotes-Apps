@@ -1,12 +1,11 @@
-
 <p>
-    Author: {{quote.author}}
-  </p>
-  
-  
-  <p class="text-success">Posted on {{quote.completeDate|date}} by {{quote.name}}</p>
-  
-  <p> {{quote.completeDate|timeCount}}</p>
-  <div class="form-group">
-  <button type="submit" class="btn btn-outline-danger" (click) ='quoteDelete(true)'> Quote will be deleted:</button>
-  </div>
+  Author: {{quote.author}}
+</p>
+
+
+<p class="text-success">Posted on {{quote.completeDate|date}} by {{quote.name}}</p>
+
+<p> {{quote.completeDate|timeCount}}</p>
+<div class="form-group">
+  <button type="submit" class="btn btn-outline-danger" (click)='quoteDelete(true)'> Quote will be deleted:</button>
+</div>
