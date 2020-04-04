@@ -9,9 +9,9 @@
 
 <body>
   <div class="container">
-    <h2>Quotes-App.</h2>
+    <br><h2>Quotes-App.</h2>
     <p> This application allow user to create quotes and have those quotes voted on whether they are <span
-        class="intro">terrible or are inspirational</span>.
+        class="intro">inspirational or have no positive impact</span>.
       <div class="all-cards">
 
         <div *ngFor='let quote of quotes; let i = index '>
@@ -19,7 +19,7 @@
           <div class="card-body">
             <li> {{quote.name}} {{quote.quote}} created at {{quote.completeDate|date}}</li>
 
-            <button (click)='toggleDetails(i)' id="quotes-button">View more</button>
+            <button (click)='toggleDetails(i)' id="quotes-button">View details</button>
 
 
 

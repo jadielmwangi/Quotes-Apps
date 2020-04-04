@@ -1,9 +1,9 @@
 # QuotesAPP
-This is an application where users can create quotes and have those quotes voted on whether they are important or terrible.
+This is an application, where users can create quotes and have those quotes voted on whether they are important or not.
 
 ## Description
 
- Quotes-App is an application allows users to create their own quotes and then the viewers of the page can vote whether the quote was helpful to them or not.
+ Quotes-App is an application which  allows users to create their own quotes and then the viewers of the page can vote whether the quote had a positve impact or not.
 
 ## Project Live Site
 
