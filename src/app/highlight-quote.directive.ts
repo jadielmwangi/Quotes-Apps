@@ -13,7 +13,7 @@ export class HighlightQuoteDirective {
     this.textDeco("highlight")
   }
   private textDeco(action: string) {
-    this.elem.nativeElement.style.backgroundColor = 'aqua';
+    this.elem.nativeElement.style.backgroundColor = 'blue';
 
   }
 
